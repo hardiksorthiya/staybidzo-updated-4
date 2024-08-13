@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> StayBidzo </title>
+
+    <!-- Meta-Tag-Responsive-View-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fevicon-Icon -->
+    <link rel="icon" type="image/svg" href="assets/images-new/fev-icon.jpg">
+
+    <!-- Style.Css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Footer-Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Owl-carousel -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+
+    <!-- Owl-carousel -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header-Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <nav class="navbar d-lg-flex d-block">
+                    <div class="row w-llg-100">
+                        <div class="col-lg-8 col-6">
+                            <a class="navbar-brand" href="index.html" target="_blank">
+                                <div class="logo_div">
+                                    <img src="assets/images-new/logo.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="">
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="StartButton">
+                                    <i class="fa fa-user-o"></i>
+                                    Login </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header-end -->
+
+    <!-- Filter-Section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 md-offet-3 m-auto col-xs-12">
+                    <div class="shadow margin-and-box-border p-3">
+                        <div class="row text-center-filter filter-section">
+                            <div class="col-7 col-lg-4">
+                                <input type="text" class="out-none w-100 text-center-filter border-0 fw-500 justify-content-center"
+                                    placeholder="Lonavala,Mumbai+2" value="Lonavala,Mumbai +2" />
+                            </div>
+                            <div class="col-5 col-lg-3">
+                                <input type="text"
+                                    class="out-none w-100 text-center-filter border-0 fw-500 justify-content-center"
+                                    placeholder="7May-8Jun" value="7May-8Jun" />
+                            </div>
+                            <div class="col-lg-3 col-8">
+                                <input type="text" class="w-100 out-none text-center-filter border-0 fw-500 justify-content-center"
+                                    placeholder="15 Guest,4 Children" value="15 Guest,4 Children" />
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModalFilter"
+                                    class="bg-transparent border-0 pull-mobile pull-right"><img width="35" height="35"
+                                        src="assets/images-new/filter.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Filter-Section -->
+
+    <!-- Map-Section -->
+    <section class="map__Section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117763.67471091678!2d75.86384989999999!3d22.723972749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1713851691587!5m2!1sen!2sin"
+            class="w-100" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- Map-Section -->
+
+    <!-- Selection-Section -->
+    <section class="mt-3 margin-bottom-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 m-auto">
+                    <div class="row m-0">
+                        <div class="col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="fw-bold"> Select Properties </h4>
+                            <p class=""> Max 15 Selection allowed </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--green"><i
+                                                        class="me-2 fa fa-check"></i>1</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-1.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>1</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--green"><i
+                                                        class="me-2 fa fa-check"></i>1</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-1.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>1</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--green"><i
+                                                        class="me-2 fa fa-check"></i>1</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-1.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-8">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>5.0</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="countBtn countBtn--grey"><i
+                                                        class="me-2 fa fa-check"></i>0</button>
+                                            </div>
+                                        </div>
+                                        <img class="w-100 border-16" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Selection-Section -->
+
+    <!-- Bid Section -->
+    <section class="box-shadow-custom bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 md-offset-1 col-xs-12 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4 class="fw-bold align-items-center text-center-mobile d-lg-flex h-100">5 Properties
+                                Selected</h4>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-float">
+                                <button class="bid-btn">Add Bid Price (Rs 10)</button>
+                                <p class="m-0 tt"> Platform fee.Properties respond at their discreation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bid Section -->
+
+</body>
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="exampleModalFilter" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content margin-top-10-5">
+            <div class="modal-header border-0">
+                <h5 class="modal-title fw-bold common-color" id="exampleModalLabel">Filter</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="pb-3 border-bottom">
+                    <h5 class="heading-font">Property Type</h5>
+                    <div class="mt-3 d-lg-flex btn-group col-xs-12 math-ruby">
+                        <div class="select">
+                            <input type="checkbox" id="item_1">
+                            <label class="btn btn-warning button_select" for="item_1">
+                                <img class="m-auto" src="assets/images-new/villa.svg" alt="">
+                                Villa
+                            </label>
+                        </div>
+
+                        <div class="select">
+                            <input type="checkbox" id="item_2">
+                            <label class="btn btn-warning button_select" for="item_2">
+                                <img class="m-auto" src="assets/images-new/farm-stay.svg" alt="">
+                                Farm Stay
+                            </label>
+                        </div>
+
+                        <div class="select">
+                            <input type="checkbox" id="item_3">
+                            <label class="btn btn-warning button_select" for="item_3">
+                                <img class="m-auto" src="assets/images-new/home.svg" alt="">
+                                Home Stay
+                            </label>
+                        </div>
+
+                        <div class="select">
+                            <input type="checkbox" id="item_4">
+                            <label class="btn btn-warning button_select" for="item_4">
+                                <img class="m-auto" src="assets/images-new/resort.svg" alt="">
+                                Resort
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pb-3 border-bottom">
+                    <h5 class="heading-font mt-3">Location</h5>
+                    <div>
+                        <div class="div-counter-section">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <select class="multiple-select shadow">
+                                        <option value="Slect Location">Slect Location</option>
+                                        <option value="Mumbai">Mumbai</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Hyderabad">Hyderabad</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-bottom">
+                    <h5 class="heading-font mt-3">Guests</h5>
+                    <div>
+                        <div class="div-counter-section">
+                            <div class="row">
+                                <div class="col-lg-6 col-6">
+                                    <h6 class="mb-0"> Adults </h6>
+                                    <p> Age 10+ above</p>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="number text-end">
+                                        <span class="minus">-</span>
+                                        <input class="w-10 text-center border-0" type="text" value="1" />
+                                        <span class="plus">+</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <h6 class="mb-0"> Children </h6>
+                                    <p> Age 4+ above</p>
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <div class="number text-end">
+                                        <span class="minus">-</span>
+                                        <input class="w-10 text-center border-0" type="text" value="1" />
+                                        <span class="plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pb-3 border-bottom">
+                    <h5 class="heading-font mt-3">Features</h5>
+                    <div class="fw-500 d-smm-grid">
+                        <span class="me-3"><input class="me-1" type="checkbox"> Only Veg </span>
+                        <span class="me-3"><input class="me-1" type="checkbox"> Swimming Pool </span>
+                        <span class="me-3"><input class="me-1" type="checkbox"> WIFI </span>
+                        <span class="me-3"><input class="me-1" type="checkbox"> Pet Friendly </span>
+                    </div>
+                </div>
+
+                <div class="pb-3 border-bottom">
+                    <h5 class="heading-font mt-3">Budget</h5>
+                    <div class="fw-500">
+                        <span class="me-3"><input class="me-1 shadow border-0 p-3 border-16" placeholder="Enter Budget"
+                                type="text" /> </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer border-0 justify-content-start">
+                <button type="button" class="mobile-w-100 btn btn-theme text-white fw-500 pe-5 ps-3 pt-3 pb-3 ps-5"
+                    data-bs-dismiss="modal">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<!-- Owl-carousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+<!-- Owl-carousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Other js -->
+<script src="assets/js/other.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+</html>

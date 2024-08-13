@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" width="25" height="24">
+	<title>Folder 1</title>
+	<style>
+		.s0 { fill: #eb4d43 } 
+		.s1 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-miterlimit:100 } 
+	</style>
+	<g id="Folder 1">
+		<path id="Ellipse 522" class="s0" d="m12.5 24c-6.9 0-12.5-5.4-12.5-12 0-6.6 5.6-12 12.5-12 6.9 0 12.5 5.4 12.5 12 0 6.6-5.6 12-12.5 12z"/>
+		<path id="Icon akar-heart" class="s1" d="m8.9 6.5c-1.9 0-3.4 1.5-3.4 3.4 0 1.5 0.6 5 6.4 8.6 0.2 0.1 0.5 0.1 0.7 0 5.9-3.6 6.5-7.1 6.5-8.6 0-1.9-1.6-3.4-3.4-3.4-1.9 0-3.4 2-3.4 2 0 0-1.5-2-3.4-2z"/>
+	</g>
+</svg>

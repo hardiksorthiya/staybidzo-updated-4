@@ -1,0 +1,920 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> StayBidzo </title>
+
+    <!-- Meta-Tag-Responsive-View-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fevicon-Icon -->
+    <link rel="icon" type="image/svg" href="assets/images-new/fev-icon.jpg">
+
+    <!-- Style.Css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Footer-Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Owl-carousel -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+
+    <!-- Owl-carousel -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header-Start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <nav class="navbar d-lg-flex d-block">
+                        <div class="row w-llg-100">
+                            <div class="col-lg-8 col-6">
+                                <a class="navbar-brand" href="index.html" target="_blank">
+                                    <div class="logo_div">
+                                        <img src="assets/images-new/logo.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-6">
+                                <div class="">
+                                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="StartButton">
+                                        <i class="fa fa-user-o"></i>
+                                        Login </button>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    <!-- Header-end -->
+
+    <!-- First-Section -->
+    <section class="first__Section border-bottom margin-top-55">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12 col-sm-12">
+                            <h4 class="heading-font fw-bold-800"> Let me get you the bid offers <br class="br-section">from properties!
+                            </h4>
+                            <div class="mt-4 row">
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input placeholder="Check-in Date" type="text"
+                                            class="form-cont border-0 w-100 bg-white" onfocus="(this.type = 'date')"
+                                            id="date" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input placeholder="Checkout Date" type="text"
+                                            class="form-cont border-0 w-100 bg-white" onfocus="(this.type = 'date')"
+                                            id="date" />
+                                    </div>
+                                </div>
+
+                                <nav class="mar-5">
+                                    <div class="nav border-0 flex-rows nav-tabs mb-3" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-property-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-property" type="button" role="tab"
+                                            aria-controls="nav-property" aria-selected="true">Property Type</button>
+                                        <button class="nav-link" id="nav-guest-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-guest" type="button" role="tab"
+                                            aria-controls="nav-guest" aria-selected="false">Guests</button>
+                                        <button class="nav-link" id="nav-location-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-location" type="button" role="tab"
+                                            aria-controls="nav-location" aria-selected="false">Locations</button>
+                                        <button class="nav-link" id="nav-pre-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-pre" type="button" role="tab" aria-controls="nav-pre"
+                                            aria-selected="false">Preferences</button>
+                                        <button class="nav-link" id="nav-budget-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-budget" type="button" role="tab"
+                                            aria-controls="nav-budget" aria-selected="false">Budget</button>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade active show" id="nav-property" role="tabpanel"
+                                        aria-labelledby="nav-property-tab">
+                                        <div class="mt-4 d-lg-flex math-ruby btn-group col-xs-12">
+                                            <div class="select">
+                                                <input type="checkbox" id="item_1">
+                                                <label class="btn btn-warning button_select" for="item_1">
+                                                    <img class="m-auto" src="assets/images-new/villa.svg" alt="">
+                                                    Villa
+                                                </label>
+                                            </div>
+
+                                            <div class="select">
+                                                <input type="checkbox" id="item_2">
+                                                <label class="btn btn-warning button_select" for="item_2">
+                                                    <img class="m-auto" src="assets/images-new/farm-stay.svg" alt="">
+                                                    Farm Stay
+                                                </label>
+                                            </div>
+
+                                            <div class="select">
+                                                <input type="checkbox" id="item_3">
+                                                <label class="btn btn-warning button_select" for="item_3">
+                                                    <img class="m-auto" src="assets/images-new/home.svg" alt="">
+                                                    Home Stay
+                                                </label>
+                                            </div>
+
+                                            <div class="select">
+                                                <input type="checkbox" id="item_4">
+                                                <label class="btn btn-warning button_select" for="item_4">
+                                                    <img class="m-auto" src="assets/images-new/resort.svg" alt="">
+                                                    Resort
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <button class="mt-4 next-button">Next <i
+                                                class="ms-2 fa fa-arrow-right"></i></button>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="nav-guest" role="tabpanel"
+                                        aria-labelledby="nav-guest-tab">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mt-4 div-counter-section">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-6">
+                                                            <h6 class="mb-0"> Adults </h6>
+                                                            <p> Age 10+ above</p>
+                                                        </div>
+                                                        <div class="col-lg-6 col-6">
+                                                            <div class="number text-end">
+                                                                <span class="minus">-</span>
+                                                                <input class="w-10 text-center border-0" type="text"
+                                                                    value="1" />
+                                                                <span class="plus">+</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-6">
+                                                            <h6 class="mb-0"> Children </h6>
+                                                            <p> Age 4+ above</p>
+                                                        </div>
+                                                        <div class="col-lg-6 col-6">
+                                                            <div class="number text-end">
+                                                                <span class="minus">-</span>
+                                                                <input class="w-10 text-center border-0" type="text"
+                                                                    value="1" />
+                                                                <span class="plus">+</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button class="mt-4 next-button">Next <i
+                                            class="ms-2 fa fa-arrow-right"></i></button>
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="nav-location" role="tabpanel"
+                                        aria-labelledby="nav-location-tab">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mt-4 div-counter-section">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <select class="multiple-select shadow">
+                                                                <option value="Slect Location">Slect Location</option>
+                                                                <option value="Mumbai">Mumbai</option>
+                                                                <option value="Delhi">Delhi</option>
+                                                                <option value="Hyderabad">Hyderabad</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="mt-4 next-button">Next <i
+                                            class="ms-2 fa fa-arrow-right"></i></button>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="nav-pre" role="tabpanel"
+                                        aria-labelledby="nav-pre-tab">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mt-4">
+                                                    <div class="fw-500 d-smm-grid">
+                                                        <span class="me-3"><input class="me-1" type="checkbox"> Only Veg
+                                                        </span>
+                                                        <span class="me-3"><input class="me-1" type="checkbox"> Swimming
+                                                            Pool </span>
+                                                        <span class="me-3"><input class="me-1" type="checkbox"> WIFI
+                                                        </span>
+                                                        <span class="me-3"><input class="me-1" type="checkbox"> Pet
+                                                            Friendly </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="mt-4 next-button">Next <i
+                                            class="ms-2 fa fa-arrow-right"></i></button>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="nav-budget" role="tabpanel"
+                                        aria-labelledby="nav-budget-tab">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group budget-section mt-2">
+                                                    <label class="fw-500" for="">Enter Budget</label>
+                                                    <input type="text" class="shadow border-0"
+                                                        placeholder="Enter Budget" value="15000"  />
+                                                        <p class="mt-2">Lorem ipsum simple dummy content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="mt-4 next-button next-button-orange">Show Properties <i
+                                            class="ms-2 fa fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 col-sm-12">
+                            <img src="assets/images-new/men-image.png" class="height-550 w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First-Section -->
+
+    <!-- Ladies Section -->
+    <section class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="Top-heading-section">
+                                <h4 class="fw-bold">Top Places to visit</h4>
+                                <p>Lorem ipsum simple dummy content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12 col-sm-12">
+                                <div class="owl-slider">
+                                    <div id="carousel" class="owl-carousel owl-carousel--SecondRound">
+                                        <div class="box-hover item">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-1.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Kolad </h2>
+                                                <p> 8 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item box-hover">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-2.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Alibug </h2>
+                                                <p> 17 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item box-hover">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-3.png">
+                                            <div class="box-content">
+                                                <h2 class="title"> Dahana </h2>
+                                                <p> 5 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-hover item">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-4.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Lgatpuri </h2>
+                                                <p> 7 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-hover item">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-1.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Kolad </h2>
+                                                <p> 8 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item box-hover">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-2.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Alibug </h2>
+                                                <p> 17 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item box-hover">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-3.png">
+                                            <div class="box-content">
+                                                <h2 class="title"> Dahana </h2>
+                                                <p> 5 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-hover item">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-4.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Lgatpuri </h2>
+                                                <p> 7 Listing </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-hover item">
+                                            <img class="owl-lazy" data-src="assets/images-new/first-1.png" alt="">
+                                            <div class="box-content">
+                                                <h2 class="title"> Kolad </h2>
+                                                <p> 8 Listing </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ladies Section -->
+
+    <!-- First-Section -->
+    <section class="margin-top-55">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 m-auto">
+                    <div class="row bg__pink__Section m-0">
+                        <div class="col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="text-center fw-bold mb-4"> Popular <span class="common-color">Categories</span>
+                            </h4>
+                        </div>
+                        <div class="col-lg-8 md-offset-2 m-auto col-xs-12">
+                            <div class="text-center row">
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-text">
+                                        <img class="mobile-image-set w-50" src="assets/images-new/vegan.svg" alt="">
+                                        <h5> Only Veg </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-text">
+                                        <img class="mobile-image-set w-50" src="assets/images-new/pet.svg" alt="">
+                                        <h5> Pet Friendly </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-text">
+                                        <img class="mobile-image-set w-50" src="assets/images-new/pool.svg" alt="">
+                                        <h5> Swimming Pool </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-text">
+                                        <img class="mobile-image-set w-50" src="assets/images-new/wifi.svg" alt="">
+                                        <h5> WIFI </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First-Section -->
+
+    <!-- First-Section -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 m-auto">
+                    <div class="row m-0">
+                        <div class="text-center col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="fw-bold"> Property <span class="common-color">Types</span> </h4>
+                            <p class="mb-4 fw-500"> Lorem ipsum simple dummy content.</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="text-center row">
+                                <div class="col-lg-3 margin-bottom-mobile-15">
+                                    <div class="overlay-image-section">
+                                        <div class=""></div>
+                                        <img class="w-100" src="assets/images-new/vill-image.png" alt="">
+                                        <div class="text-with-upper">
+                                            <h5> Villa </h5>
+                                            <p> 3 Listing </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 margin-bottom-mobile-15">
+                                    <div class="overlay-image-section">
+                                        <div class=""></div>
+                                        <img class="w-100" src="assets/images-new/farm-stay-image.png" alt="">
+                                        <div class="text-with-upper">
+                                            <h5> Farm Stay </h5>
+                                            <p> 10 Listing </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 margin-bottom-mobile-15">
+                                    <div class="overlay-image-section">
+                                        <div class=""></div>
+                                        <img class="w-100" src="assets/images-new/hmoe-stay-image.png" alt="">
+                                        <div class="text-with-upper">
+                                            <h5> Home Stay </h5>
+                                            <p> 10 Listing </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 margin-bottom-mobile-15">
+                                    <div class="overlay-image-section">
+                                        <div class=""></div>
+                                        <img class="w-100" src="assets/images-new/resort-image.png" alt="">
+                                        <div class="text-with-upper">
+                                            <h5> WIFI </h5>
+                                            <p> 8 Listing </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First-Section -->
+
+    <!-- First-Section -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 m-auto">
+                    <div class="row m-0">
+                        <div class="col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="fw-bold"> Popular <span class="common-color">Listing</span> </h4>
+                            <p class=""> What are you intrested. </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-3">                            
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-12">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>50
+                                                    (23)</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-1.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-12">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>50
+                                                    (23)</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-2.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Farm Stay </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-12">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>50
+                                                    (23)</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-3.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Resort </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">                            
+                                    <div class="position-relative mb-4">
+                                        <div class="row custom-row-absolute">
+                                            <div class="col-12">
+                                                <button class="yellow-bg"><i class="fa fa-star me-1"></i>50
+                                                    (23)</button>
+                                                    <button class="yellow-bg next-button-orange"><i class="fa fa-history me-1"></i>76%</button>
+                                            </div>
+                                        </div>
+                                        <img class="border-16 w-100" src="assets/images-new/maldi-4.png" alt="">
+                                        <div class="minus-margin">
+                                            <h5> Lonavala <button class="pull-right"><img
+                                                        src="assets/images-new/home-white.png" /> Villa </button></h5>
+                                        </div>
+
+                                        <div class="upper-section">
+                                            <h3> Maldives Deluxe Water Villa </h3>
+                                            <p class="mb-1"> 4BHK Villa with 2 Terraces </p>
+                                            <p class="three-section">
+                                                <span><img src="assets/images-new/4-room.svg" /> 4 Room </span>
+                                                <span><img src="assets/images-new/bath.png" /> 4 Bath </span>
+                                                <span><img src="assets/images-new/user-bg.png" /> 15 Guest </span>
+                                            </p>
+                                            <strong class="common-color">₹23000 onwards</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First-Section -->
+
+    <!-- How-It-Section -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-md-12 col-xs-12 m-auto">
+                    <div class="row bg__pink__Section m-0">
+                        <div class="col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="text-center fw-bold mb-4"> How It Work <span
+                                    class="common-color">StayBidzo</span> </h4>
+                        </div>
+                        <div class="col-lg-10 md-offset-1 m-auto col-xs-12">
+                            <div class="text-center margin-top-55 row">
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-texts">
+                                        <img width="65" height="65" src="assets/images-new/submit.svg" alt="">
+                                        <h5> Submit your <br>Preferences </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-texts">
+                                        <img width="65" height="65" src="assets/images-new/bid.svg" alt="">
+                                        <h5> Properties bid <br> offers to you </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-texts">
+                                        <img width="65" height="65" src="assets/images-new/choose-best.svg" alt="">
+                                        <h5> Choose the best <br> property & offers </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="img-texts">
+                                        <img width="65" height="65" src="assets/images-new/confirm.svg" alt="">
+                                        <h5> Confirm your <br> booking </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How-It-Section -->
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4 class="fw-bold"> See what our <span class="common-color">StayBidzo</span> <br>lovers says</h4>
+                </div>
+                <div class="col-md-12 mt-2 mb-4">
+                    <div id="customers-testimonials" class="testimonial-carousel owl-carousel">
+                        <!--TESTIMONIAL 1 -->
+                        <div class="testimonial-item p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-circle flex-shrink-0" src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859">
+                                <div class="ms-4">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <p class="mb-1">Profession</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                        <div class="testimonial-item p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-circle flex-shrink-0" src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859">
+                                <div class="ms-4">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <p class="mb-1">Profession</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                        <div class="testimonial-item p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-circle flex-shrink-0" src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859">
+                                <div class="ms-4">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <p class="mb-1">Profession</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                        <div class="testimonial-item p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-circle flex-shrink-0" src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859">
+                                <div class="ms-4">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <p class="mb-1">Profession</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                        <!--END OF TESTIMONIAL 3 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+
+    <!-- Footer-Section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="assets/images-new/logo.svg" alt="">
+                                <p> StayBidzo is an online platform connecting users <br>with property owners, allowing
+                                    them
+                                    to discover, <br>connect, and book distinctive experiential <br>accommodations for a
+                                    unique
+                                    and memorable stay. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div>
+                                <h5> Useful Links </h5>
+                                <ul>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Home</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Contact Us</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> About Us</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Cancelation Poilcy</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Help Centre</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div>
+                                <h5> Support </h5>
+                                <ul>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Terms & Condition</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> FAQ</li>
+                                    <li><i class="fa fa-square me-2 i" aria-hidden="true"></i> Privacy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div>
+                                <h5> Contact </h5>
+                                <ul>
+                                    <li><i class="fa fa-envelope-o me-3 social"></i>info@stabidzo.com</li>
+                                    <li><i class="fa fa-phone me-3 social"></i>+919874603110</li>
+                                    <li class="mt-4">
+                                        <ul class="inner-ul">
+                                            <li><i class="fa fa-facebook social"></i></li>
+                                            <li><i class="fa fa-twitter social"></i></li>
+                                            <li><i class="fa fa-youtube-play social"></i></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer-Section -->
+
+    <!-- CopyRight-Section -->
+        <section class="p-4">
+            <div class="text-center container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="m-0 fw-500">StayBidzo. ©2024 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- CopyRight-Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content margin-top-10-5">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <img width="150" src="assets/images-new/logo.svg" alt="">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <nav>
+                        <div class="nav border-0 nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link active pt-2 pb-2" id="nav-login-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-login" type="button" role="tab" aria-controls="nav-login"
+                                aria-selected="false">LOGIN</button>
+                            <button class="nav-link pt-2 pb-2" id="nav-sign-tab" data-bs-toggle="tab" data-bs-target="#nav-sign"
+                                type="button" role="tab" aria-controls="nav-sign"
+                                aria-selected="false">REGISTER</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade active show" id="nav-login" role="tabpanel"
+                            aria-labelledby="nav-login-tab">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label class="fw-500 mb-3">Enter Mobile Number</label>
+                                    <input type="text" class="w-100 mobile-input shadow border-0"
+                                        placeholder="+91 00000054646" value="+91 00000054646" class="" />
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <button type="button" class="btn btn-theme text-white p-3 w-100"
+                                        data-bs-dismiss="modal">GET OTP <i class="pull-right fa fa-check"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-sign" role="tabpanel" aria-labelledby="nav-sign-tab">
+                            <div class="row">
+                                <div class="form-group col-lg-12">
+                                    <label class="fw-500 mb-3">Enter Mobile Number</label>
+                                    <input type="text" class="w-100 mobile-input shadow border-0"
+                                        placeholder="+91 00000054646" value="+91 00000054646" class="" />
+                                </div>
+
+                                <div class="form-group col-lg-6 mt-3">
+                                    <input type="text" class="w-100 mobile-input shadow border-0"
+                                        placeholder="First Name" class="" />
+                                </div>
+
+                                <div class="form-group col-lg-6 mt-3">
+                                    <input type="text" class="w-100 mobile-input shadow border-0"
+                                        placeholder="Last Name" class="" />
+                                </div>
+
+                                <div class="form-group col-lg-12 mt-3">
+                                    <input type="text" class="w-100 mobile-input shadow border-0" placeholder="Email"
+                                        class="" />
+                                </div>
+
+                                <p class="mt-2" style="font-size: 12px;">We'll never share your email with anyone else.</p>
+
+                                <div class="form-group col-lg-12">
+                                    <input type="checkbox"> I accept all terms and conditions.
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <button type="button" class="btn btn-theme text-white p-3 w-100"
+                                        data-bs-dismiss="modal">GET OTP <i class="pull-right fa fa-check"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<!-- Owl-carousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+<!-- Owl-carousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Other js -->
+<script src="assets/js/other.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+</html>
